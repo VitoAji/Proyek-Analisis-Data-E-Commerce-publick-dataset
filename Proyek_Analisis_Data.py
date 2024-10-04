@@ -31,7 +31,7 @@ import streamlit as st
 
 
 #masukkan dataset
-orders = pd.read_csv('"https://drive.google.com/uc?id=1t6R6b97Oe3TG61-v8FIcSqo08RQxaiZN?hl=id')
+orders = pd.read_csv('https://drive.google.com/uc?id=1t6R6b97Oe3TG61-v8FIcSqo08RQxaiZN?hl=id')
 products = pd.read_csv('https://drive.google.com/uc?id=1t6R6b97Oe3TG61-v8FIcSqo08RQxaiZN?hl=id')
 customers = pd.read_csv('https://drive.google.com/uc?id=1t6R6b97Oe3TG61-v8FIcSqo08RQxaiZN?hl=id')
 reviews = pd.read_csv('https://drive.google.com/uc?id=1t6R6b97Oe3TG61-v8FIcSqo08RQxaiZN?hl=id')
