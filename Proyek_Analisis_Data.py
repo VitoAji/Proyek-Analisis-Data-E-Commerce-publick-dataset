@@ -31,11 +31,11 @@ import streamlit as st
 
 
 #masukkan dataset
-orders = pd.read_csv('C:/Users/ASUS/Music/E-Commerce Public Dataset/Dashboard/main_data.csv/orders_dataset.csv')
-products = pd.read_csv('C:/Users/ASUS/Music/E-Commerce Public Dataset/Dashboard/main_data.csv/products_dataset.csv')
-customers = pd.read_csv('C:/Users/ASUS/Music/E-Commerce Public Dataset/Dashboard/main_data.csv/customers_dataset.csv')
-reviews = pd.read_csv('C:/Users/ASUS/Music/E-Commerce Public Dataset/Dashboard/main_data.csv/order_reviews_dataset.csv')
-payments = pd.read_csv('C:/Users/ASUS/Music/E-Commerce Public Dataset/Dashboard/main_data.csv/order_payments_dataset.csv')
+orders = pd.read_csv('"https://drive.google.com/uc?id=1t6R6b97Oe3TG61-v8FIcSqo08RQxaiZN?hl=id')
+products = pd.read_csv('https://drive.google.com/uc?id=1t6R6b97Oe3TG61-v8FIcSqo08RQxaiZN?hl=id')
+customers = pd.read_csv('https://drive.google.com/uc?id=1t6R6b97Oe3TG61-v8FIcSqo08RQxaiZN?hl=id')
+reviews = pd.read_csv('https://drive.google.com/uc?id=1t6R6b97Oe3TG61-v8FIcSqo08RQxaiZN?hl=id')
+payments = pd.read_csv('https://drive.google.com/uc?id=1t6R6b97Oe3TG61-v8FIcSqo08RQxaiZN?hl=id')
 
 
 # **Insight:**
