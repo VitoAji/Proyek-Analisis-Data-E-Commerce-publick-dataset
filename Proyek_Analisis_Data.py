@@ -33,7 +33,7 @@ import streamlit as st
 #masukkan dataset
 orders = pd.read_csv('https://raw.githubusercontent.com/VitoAji/Proyek-Analisis-Data-E-Commerce-publick-dataset/refs/heads/main/orders_dataset.csv')
 products = pd.read_csv('https://raw.githubusercontent.com/VitoAji/Proyek-Analisis-Data-E-Commerce-publick-dataset/refs/heads/main/products_dataset.csv')
-customers = pd.read_csv('https://github.com/VitoAji/Proyek-Analisis-Data-E-Commerce-publick-dataset/refs/heads/main/customers_dataset.csv')
+customers = pd.read_csv('https://raw.githubusercontent.com/VitoAji/Proyek-Analisis-Data-E-Commerce-publick-dataset/refs/heads/main/customers_dataset.csv')
 reviews = pd.read_csv('https://raw.githubusercontent.com/VitoAji/Proyek-Analisis-Data-E-Commerce-publick-dataset/refs/heads/main/order_reviews_dataset.csv')
 payments = pd.read_csv('https://raw.githubusercontent.com/VitoAji/Proyek-Analisis-Data-E-Commerce-publick-dataset/refs/heads/main/order_payments_dataset.csv')
 
