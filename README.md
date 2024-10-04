@@ -1,4 +1,4 @@
-# Dicoding Collection Dashboard ✨
+# DASBOARD E-COMMERCE 
 
 ## Setup Environment - Anaconda
 ```
