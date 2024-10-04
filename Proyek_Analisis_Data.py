@@ -31,11 +31,11 @@ import streamlit as st
 
 
 #masukkan dataset
-orders = pd.read_csv('https://drive.google.com/uc?id=1t6R6b97Oe3TG61-v8FIcSqo08RQxaiZN?hl=id')
-products = pd.read_csv('https://drive.google.com/uc?id=1t6R6b97Oe3TG61-v8FIcSqo08RQxaiZN?hl=id')
-customers = pd.read_csv('https://drive.google.com/uc?id=1t6R6b97Oe3TG61-v8FIcSqo08RQxaiZN?hl=id')
-reviews = pd.read_csv('https://drive.google.com/uc?id=1t6R6b97Oe3TG61-v8FIcSqo08RQxaiZN?hl=id')
-payments = pd.read_csv('https://drive.google.com/uc?id=1t6R6b97Oe3TG61-v8FIcSqo08RQxaiZN?hl=id')
+orders = pd.read_csv('https://raw.githubusercontent.com/VitoAji/Proyek-Analisis-Data-E-Commerce-publick-dataset/refs/heads/main/customers_dataset.csv')
+products = pd.read_csv('https://raw.githubusercontent.com/VitoAji/Proyek-Analisis-Data-E-Commerce-publick-dataset/refs/heads/products_dataset.csv')
+customers = pd.read_csv('https://raw.githubusercontent.com/VitoAji/Proyek-Analisis-Data-E-Commerce-publick-dataset/refs/heads/customers_dataset.csv')
+reviews = pd.read_csv('https://raw.githubusercontent.com/VitoAji/Proyek-Analisis-Data-E-Commerce-publick-dataset/refs/heads/order_reviews_dataset.csv')
+payments = pd.read_csv('https://raw.githubusercontent.com/VitoAji/Proyek-Analisis-Data-E-Commerce-publick-dataset/refs/heads/order_payments_dataset.csv')
 
 
 # **Insight:**
