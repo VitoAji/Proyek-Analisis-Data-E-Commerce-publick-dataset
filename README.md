@@ -18,5 +18,5 @@ pip install -r requirements.txt
 
 ## Run steamlit app
 ```
-streamlit run Proyek_Analisis_Data.py
+streamlit run dashboard.py
 ```
