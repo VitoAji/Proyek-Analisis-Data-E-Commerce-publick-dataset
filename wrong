@@ -1,19 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Proyek Analisis Data: [E-Commerce-publick-dataset.zip]
-# - **Nama:** [Vito Aji Pradipta]
-# - **Email:** [m004b4ky4439@bangkit.academy]
-# - **ID Dicoding:** [vito_aji_pradipta_77]
-
-# ## Menentukan Pertanyaan Bisnis
-
-# - Question 1 : How does a shipment have different delivery times and what categories have fast and slow delivery times ?
-# - Question 2 : which city has the largest e-commerce revenue and is it directly proportional based on customer review ratings ?
-
-# ## Import Semua Packages/Library yang Digunakan
-
-# In[3]:
 
 
 #mengimpor semua library
@@ -23,11 +7,6 @@ import matplotlib.pyplot as plt # untuk visualsasi
 import seaborn as sns # untuk statistika visual
 import streamlit as st
 
-# ## Data Wrangling
-
-# ### Gathering Data
-
-# In[6]:
 
 
 #masukkan dataset
@@ -38,24 +17,11 @@ reviews = pd.read_csv('https://raw.githubusercontent.com/VitoAji/Proyek-Analisis
 payments = pd.read_csv('https://raw.githubusercontent.com/VitoAji/Proyek-Analisis-Data-E-Commerce-publick-dataset/refs/heads/main/order_payments_dataset.csv')
 
 
-# **Insight:**
-# - orders dataset will help calculate delivery times and statuses for different products
-# - customer and reviews dataset will help to correlate customer satisfaction with revenue
-
-# ### Assessing Data
-
-# In[7]:
 
 
 
 
-# **Insight:**
-# - Orders dataset contains importan timestamps such as order creation and delivery times
-# - missing values are visible in certain columns, especially in order status, indicating canceled or incomplete orders
 
-# ### Cleaning Data
-
-# In[38]:
 
 
 #ubah date columns ke datetime
@@ -91,16 +57,11 @@ order_products= pd.merge(order_items_merged, products, on='product_id', how='inn
 category_delivery_time = order_products.groupby('product_category_name')['delivery_time'].mean().sort_values()
 
 
-# **Insight:**
-# - categories with the longest delivery times may indicate supply chain issues or logistics challenges
-# - shorter delivery times for certain categories indicate an efficient process
+
 
 # ## Visualization & Explanatory Analysis
 st.title("🛒SIMPLE DASBOARD E-COMMERCE")
 
-# ### Pertanyaan 1:
-
-# In[25]:
 
 
 #visualisasi delivery time by category
